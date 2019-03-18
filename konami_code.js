@@ -4,7 +4,7 @@ function init() {
   // Write your JavaScript code inside the init() function
 
 const body = document.querySelector('body')
-body.addEventListener('keydown', e => onKeyDownHandler(e))
+body.addEventListener('keydown', e => onKeyDownHandler)
 
 }
 
